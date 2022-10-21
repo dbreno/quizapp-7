@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <!-- HEAD PADRÃO
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Ciência ao Cubo</title>
+
+    <!-- FONTE
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+    <!-- ESTILOS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    
+    <!-- SCRIPTS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/ad775cd800.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <!-- CABEÇALHO
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+    <header>
+
+        <div class="container" id="nav-container">
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand" href="index.html">
+                    
+                    <img id="logo" src="img/logo.png" alt="Ciência ao Cubo">
+
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+
+                    <div class="navbar-nav">
+
+                        <a class="nav-item nav-link" id="home-menu" href="#">Home</span></a>
+                        <a class="nav-item nav-link" id="about-menu" href="#">Sobre</a>
+                        <a class="nav-item nav-link" id="services-menu" href="#">Serviços</a>
+
+                    </div>
+
+                </div>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- CORPO DO SITE
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <main>
+
+        <div class="container-fluid">
+
+            <!-- SLIDER
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+
+                        <img src="img/banner1.png" class="d-block w-100" alt="Banner 1">
+
+                        <div class="carousel-caption d-md-block">
+
+                            <h2>Vamos estudar?</h5>
+                            <p>É simples e rápido, basta clicar no botão abaixo.</p>
+                            <a href="questions.html" class="main-btn">Exercitar</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <img src="img/banner2.png" class="d-block w-100" alt="Banner 2">
+
+                        <div class="carousel-caption d-md-block">
+
+                            <h2>Conquiste a sua aprovação!</h5>
+                            <p>Teste seus conhecimentos e adquira novas aprendizagens.</p>
+                            <a href="questions.html" class="main-btn">Exercitar</a>
+
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <img src="img/banner3.png" class="d-block w-100" alt="Banner 3">
+
+                        <div class="carousel-caption d-md-block">
+
+                            <h2>Descubra novos horizontes.</h5>
+                            <p>Aqui, você pode mais!</p>
+                            <a href="questions.html" class="main-btn">Exercitar</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+
+                </a>
+
+                <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+
+                </a>
+
+            </div>
+
+            <!-- SOBRE
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+            <div id="about-area">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-12">
+
+                            <h3 class="main-title">Sobre a Ciência ao Cubo</h3>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            
+                            <img class="img-fluid border" src="img/photo01.png" alt="Photo01">
+                            
+                        </div>
+
+                        <div class="col-md-6 justified">
+
+                            <h3 class="about-title">Nossa plataforma oferece várias questões para que você, estudante, teste seus conhecimentos</h3>
+                            <p>Nossos serviços são feitos com muito esmero para melhorar cada vez mais a experiência de nossos usuários.</p>
+                            <p>Ciência ao Cubo é um sistema web de aprendizagem que tem por objetio preparar o estudante para que esse seja capaz de prestar ENEM e demais vestibulares tradicionais, conquistando a sua aprovação.</p>
+                          
+
+                            <ul id="about-list">
+
+                                <li><i class="fas fa-check"></i>Questões de múltipla escolha.</li>
+                                <li><i class="fas fa-check"></i>Contempla questões de Ciências da Natureza.</li>
+                                <li><i class="fas fa-check"></i>Diversos conteúdos que, indubitavelmente, são cobrados nos vestibulares.</li>
+                                <li><i class="fas fa-check"></i>Disciplinas abordadas: Química, Física e Biologia.</li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- SERVIÇOS
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+            <div id="services-area">
+
+                <div class="container servicestyle">
+
+                    <div class="row">
+
+                        <div class="col-12">
+
+                            <h3 class="main-title">Nossos serviços</h3>
+
+                        </div>
+
+                        <div class="col-md-4 service-box">
+
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h4>Diversas questões</h4>
+                            <p>Nosso sistema promoverá a sua preparação.</p>
+
+                        </div>
+
+                        <div class="col-md-4 service-box">
+
+                            <i class="fa-solid fa-dna"></i>
+                            <h4>Ciências da Natureza</h4>
+                            <p>Questões baseadas nas disciplinas: Química, Biologia e Física.</p>
+
+                        </div>
+
+                        <div class="col-md-4 service-box">
+
+                            <i class="fa-solid fa-arrow-trend-up"></i>
+                            <h4>Para todos os usuários!</h4>
+                            <p>Questões do mais básico ao mais complexo nível.</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        
+            <!-- Saiba Mais
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+            <div id="apply-area">
+
+                <div class="container-fluid">
+
+                    <div class="row">
+
+                        <div class="col-md-6 apply-box" id="company-img"></div>
+
+                        <div class="col-md-6 apply-box" id="pattern-img">
+
+                            <h4>SAIBA MAIS</h4>
+                            <p>Nossa plataforma será uma ferramenta útil para o estudante pratique seus conhecimentos e aprenda mais sobre ciências da natureza, conquistando uma melhor nota nas provas que exigem tais conhecimentos.</p>
+                            <p>Clique no botão abaixo e confira!</p>
+                            <a href="questions.html" class="main-btn" id="apply-btn">Saiba Mais</a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Call to Action
+            –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+            
+            <div id="call-area">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <p>Vamos começar?</p>
+                        <a href="questions.html" class="main-btn" id="call-btn">Exercitar</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Rodapé
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+    <footer>
+
+        <div id="copy-area">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <p>Desenvolvido por <a href="#" target="_blank">Ciência Ao Cubo</a> &copy; 2022</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script>
+        $( document ).ready(function() { 
+            let navBtn = $('.nav-item');
+
+            let bannerSection = $('#mainSlider');
+            let aboutSection = $('#about-area');
+            let servicesSection = $('#services-area');
+            let teamSection = $('#team-area');
+
+            let scrollTo = '';
+
+            $(navBtn).click(function() {
+
+            let btnId = $(this).attr('id');
+
+            if(btnId == 'about-menu') {
+                scrollTo = aboutSection;
+            } else if(btnId == 'services-menu') {
+                scrollTo = servicesSection;
+            } else {
+                scrollTo = bannerSection;
+            }
+
+            $([document.documentElement, document.body]).animate({
+                scrollTop: $(scrollTo).offset().top - 70
+            }, 1500);
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "quiz-app4",
+  "version": "1.0.0",
+  "description": "O projeto consiste no desenvolvimento de um sistema web, site, voltado ao aprendizado de ciências da natureza, área da ciência que visa a estudar a natureza em seus aspectos mais gerais e fundamentais, englobando disciplinas da formação geral, sendo elas: Biologia, Química e Física. O sistema apresentará perguntas sobre os conteúdos dessas disciplinas do mesmo modo que cai em vestibulares tradicionais e no ENEM. Após respondida à pergunta, haverá um retorno identificando se a resposta escolhida pelo usuário está correta ou incorreta.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "db:reload": "npm run db:drop && npm run db:load",
+    "db:load": "node src/database/load.js",
+    "db:drop": "rm src/database/db.sqlite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "sqlite-async": "^1.1.5",
+    "uuid": "^8.3.2"
+  }
+}

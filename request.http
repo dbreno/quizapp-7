@@ -1,0 +1,49 @@
+@token = {{login.response.body.token}}
+@host = http://localhost:3000
+
+### Show Answers
+
+POST {{host}}/acertos
+Content-Type: application/json
+Authorization: bearer {{token}}
+
+{
+    "acertos": 9,
+    "erros": 1
+}
+
+### Valid Login
+
+# @name login
+POST {{host}}/signin
+Content-Type: application/json
+
+{
+    "email": "vini@gmail.com",
+    "password": "123"
+}
+
+### Create User
+
+POST {{host}}/users
+Authorization: bearer {{token}}
+Content-Type: multipart/form-data; boundary="boundary"
+
+--boundary
+Content-Disposition: form-data; name="name"
+
+Pessoa500
+--boundary
+Content-Disposition: form-data; name="email"
+
+pessoa500@gmail.com
+--boundary
+Content-Disposition: form-data; name="password"
+
+123
+--boundary
+Content-Disposition: form-data; name="image"; filename="user.jpeg"
+Content-Type: image/jpeg
+
+< ./public/imgs/profile/user.jpeg
+--boundary--

@@ -1,0 +1,136 @@
+body {
+    background-color: rgba(220, 217, 217, 0.932);
+}
+
+.correct-alternative {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 100px;
+    background-color: #50dd5ca4;
+    font-weight: bold;
+}
+
+.wrong-alternative {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 100px;
+    background-color: #ff00008f;
+    font-weight: bold;
+}
+
+header, .navbar {
+    background-color: #0049FF
+}
+
+.justificado {
+    text-align: justify;
+}
+  
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+  
+#logo {
+    width: 150px;
+}
+  
+.navbar-brand {
+    padding: 0;
+    color: #FFF;
+}
+  
+.navbar-brand:hover {
+    color: #FFF;
+}
+  
+.navbar-nav a:hover {
+    background: rgba(0, 0, 0, 0.171);
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.navbar-nav {
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+  
+#navbar-links a {
+    color: #FFF;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+  
+.nav-item.active {
+    border-bottom: 3px solid #FFF;
+}
+
+#contact-area {
+    text-align: center;
+}
+  
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #0049FF;
+}
+  
+.contact-box i {
+    color: #e6e6e6;
+    border: solid 1px #e6e6e6;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.contact-box p {
+    color: #e6e6e6;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+#copy-area {
+    background-color: #585353;
+    color: #e6e6e6;
+}
+  
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+  
+#copy-area .container p {
+    margin-bottom: 0;
+}
+  
+#copy-area .container a {
+    font-weight: bold;
+    color: rgb(224, 218, 218);
+    text-decoration: none;
+}
+  
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: #3EC1D5;
+}
+
+#perfil {
+    width: 13%; 
+    height: 13%; 
+    border-radius: 50px;
+}

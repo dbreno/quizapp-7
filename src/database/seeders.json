@@ -1,0 +1,515 @@
+{
+
+    "alternatives": [
+        
+        {
+
+            "id": 1,
+            "name": "desenvolvimento embrionário.",
+            "question_id": "1",
+            "letter": "A)"
+        },
+
+        {
+
+            "id": 2,
+            "name": "reprodução sexuada.",
+            "question_id": "1",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 3,
+            "name": "respiração aeróbica.",
+            "question_id": "1",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 4,
+            "name": "excreção urinária.",
+            "question_id": "1",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 5,
+            "name": "síntese proteica.",
+            "question_id": "1",
+            "letter": "E)"
+
+        },
+
+        {
+
+            "id": 6,
+            "name": "ambos são processos anabólicos, pois consomem energia dos compostos orgânicos.",
+            "question_id": "2",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 7,
+            "name": "ambos são processos catabólicos, pois liberam a energia contida nos compostos orgânicos.",
+            "question_id": "2",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 8,
+            "name": "a respiração é um processo catabólico, no qual ocorre quebra de matéria orgânica e liberação de energia, e a fotossíntese é um processo anabólico, no qual ocorre a síntese de matéria orgânica e consumo de energia.",
+            "question_id": "2",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 9,
+            "name": "a fotossíntese é um processo anabólico, no qual ocorre quebra de matéria orgânica e liberação de energia, e a respiração é um processo catabólico, no qual ocorre a síntese de matéria orgânica e consumo de energia.",
+            "question_id": "2",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 10,
+            "name": "a respiração é um processo anabólico, no qual ocorre quebra de matéria orgânica e liberação de energia, e a fotossíntese é um processo catabólico, no qual ocorre a síntese de matéria orgânica e consumo de energia.",
+            "question_id": "2",
+            "letter": "E)"
+
+        },
+
+        {
+
+            "id": 11,
+            "name": "F – F – F – V.",
+            "question_id": "3",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 12,
+            "name": "V – F – F – F.",
+            "question_id": "3",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 13,
+            "name": "F – V – F – V.",
+            "question_id": "3",
+            "letter": "C)"
+
+        },
+        
+        {
+
+            "id": 14,
+            "name": "V – F – V – F.",
+            "question_id": "3",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 15,
+            "name": "Em Marte as substâncias citadas são todas compostas.",
+            "question_id": "4",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 16,
+            "name": "O etanol e o glicoaldeído de açúcar apresentam a mesma quantidade de átomos.",
+            "question_id": "4",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 17,
+            "name": "O gás carbônico representa uma mistura homogênea de carbono e oxigênio.",
+            "question_id": "4",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 18,
+            "name": "As substâncias simples citadas no texto compreendem N2, O2, S8, Cl2 e H2O.",
+            "question_id": "4",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 19,
+            "name": "Em Europa atribui-se a existência de pelo menos 5 elementos químicos H, Cl, S, C e O.",
+            "question_id": "4",
+            "letter": "E)"
+
+        },
+
+        {
+
+            "id": 20,
+            "name": "diminuída, enquanto a evaporação do suor no corpo humano evita que sua temperatura aumente.",
+            "question_id": "5",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 21,
+            "name": "aumentada, enquanto a evaporação do suor no corpo humano evita que sua temperatura diminua.",
+            "question_id": "5",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 22,
+            "name": "diminuída, enquanto a evaporação do suor no corpo humano evita que sua temperatura diminua.",
+            "question_id": "5",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 23,
+            "name": "aumentada, enquanto a evaporação do suor no corpo humano evita que sua temperatura aumente.",
+            "question_id": "5",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 24,
+            "name": "Alotropia é o fenômeno pelo qual podem existir átomos do mesmo elemento químico formando substâncias simples diferentes.",
+            "question_id": "6",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 25,
+            "name": "O ozônio, o hélio e o metano são substâncias simples.",
+            "question_id": "6",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 26,
+            "name": "Os fulerenos são uma forma alotrópica do enxofre.",
+            "question_id": "6",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 27,
+            "name": "Fósforo branco, enxofre rômbico e ozônio são substâncias compostas.",
+            "question_id": "6",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 28,
+            "name": "O leite é uma substância composta.",
+            "question_id": "6",
+            "letter": "E)"
+
+        },
+
+        {
+
+            "id": 29,
+            "name": "fosforescência, pode ser explicado pela quantização de energia dos elétrons e seu retorno ao estado mais energético, conforme o Modelo Atômico de Rutherford.",
+            "question_id": "7",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 30,
+            "name": "bioluminescência, pode ser explicado pela mudança de nível energético dos elétrons e seu retorno ao nível menos energético, conforme o Modelo de Rutherford-Bohr.",
+            "question_id": "7",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 31,
+            "name": "fluorescência, pode ser explicado pela excitação dos elétrons e seu retorno ao estado menos energético, conforme o Modelo Atômico de Bohr.",
+            "question_id": "7",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 32,
+            "name": "luminescência, pode ser explicado pela produção de luz por meio da excitação dos elétrons, conforme o Modelo Atômico de Thomson.",
+            "question_id": "7",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 33,
+            "name": "18 km/h e 2 km/h.",
+            "question_id": "8",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 34,
+            "name": "17 km/h e 3 km/h.",
+            "question_id": "8",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 35,
+            "name": "16 km/h e 4 km/h.",
+            "question_id": "8",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 36,
+            "name": "15 km/h e 5 km/h.",
+            "question_id": "8",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 37,
+            "name": "19 km/h e 1 km/h.",
+            "question_id": "8",
+            "letter": "E)"
+
+        },
+
+        {
+
+            "id": 38,
+            "name": "ele foi disparado em direção ao avião francês, freado pelo ar e parou justamente na frente do piloto.",
+            "question_id": "9",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 39,
+            "name": "o avião se movia no mesmo sentido que o dele, com velocidade visivelmente superior.",
+            "question_id": "9",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 40,
+            "name": "ele foi disparado para cima com velocidade constante, no instante em que o avião francês passou.",
+            "question_id": "9",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 41,
+            "name": "o avião se movia no sentido oposto ao dele, com velocidade de mesmo valor.",
+            "question_id": "9",
+            "letter": "D)"
+
+        },
+        
+        {
+
+            "id": 42,
+            "name": "o avião se movia no mesmo sentido que o dele, com velocidade de mesmo valor.",
+            "question_id": "9",
+            "letter": "E)"
+
+        },
+
+        {
+
+            "id": 43,
+            "name": "o anabolismo dessas gorduras, em um processo metabólico do tipo endotérmico.",
+            "question_id": "10",
+            "letter": "A)"
+
+        },
+
+        {
+
+            "id": 44,
+            "name": "o anabolismo dessas gorduras, em um processo metabólico do tipo exotérmico.",
+            "question_id": "10",
+            "letter": "B)"
+
+        },
+
+        {
+
+            "id": 45,
+            "name": "o catabolismo dessas gorduras, em um processo metabólico do tipo exo-endotérmico.",
+            "question_id": "10",
+            "letter": "C)"
+
+        },
+
+        {
+
+            "id": 46,
+            "name": "o catabolismo dessas gorduras, em um processo metabólico do tipo endotérmico.",
+            "question_id": "10",
+            "letter": "D)"
+
+        },
+
+        {
+
+            "id": 47,
+            "name": "o catabolismo dessas gorduras, em um processo metabólico do tipo exotérmico.",
+            "question_id": "10",
+            "letter": "E)"
+
+        }
+
+    ],
+
+    "questions": [
+
+        {
+
+            "id": 1,
+            "name": "Apesar da grande diversidade biológica, a hipótese de que a vida na Terra tenha tido uma única origem comum é aceita pela comunidade científica. Uma evidência que apoia essa hipótese é a observação de processos biológicos comuns a todos os seres vivos atualmente existentes. Um exemplo de tal processo é o(a)",
+            "answer": 5
+
+        },
+
+        {
+
+            "id": 2,
+            "name": "A respiração e a fotossíntese são dois processos relacionados ao metabolismo energético dos seres vivos. A respeito desses dois processos é correto afirmar que",
+            "answer": 3
+
+        },
+
+        {
+
+            "id": 3,
+            "name": "O ciclo da água é um fenômeno natural que constitui exemplo das mudanças de estados físicos da matéria. Sobre os processos envolvidos no ciclo da água e a entalpia envolvida, analise as afirmativas a seguir, julgando-as como verdadeiras (V) ou falsas (F).<br><br>(   ) Para que o processo de evaporação ocorra, é necessário que haja absorção de energia, ou seja, trata-se de um processo exotérmico. <br>(  ) A formação das nuvens é explicada pelo processo de condensação, o qual é exotérmico, ocorrendo com liberação de energia. <br>(    )   A liquefação é a passagem do estado gasoso para líquido e trata-se de um processo endotérmico. <br>(    )  O congelamento da água de um lago é um processo de solidificação, o qual é exotérmico. A sequência correta de preenchimento dos parênteses, de cima para baixo é:",
+            "answer": 3
+
+        },
+
+        {
+
+            "id": 4,
+            "name": "As pesquisas científicas têm mostrado que a existência de outras formas de vida fora da terra passa pela busca de substâncias químicas que possam suportar esta hipótese. Até o momento já foram divulgadas notícias sobre a existência, em Europa, uma das 4 luas de Júpiter, de água (H2O), uma mistura de compostos formadas pela presença de oxigênio (O), enxofre ionizado (S) e gelo, além da suspeita de substâncias que poderiam ser formadas por cloro (Cl) e sais de carbonato (CO3-2); no cometa Lovejoy foi noticiada a existência de etanol (CH3CH2OH) e um glicoaldeído de açúcar (OHCH2CHO); na atmosfera do planeta Marte noticiou-se a existência de vapor d’água (H2O), e dos gases, Nitrogênio (N2), monóxido de carbono (CO), óxido nítrico (NO), metano (CH4) e gás carbônico (CO2), entre outros.<br><br>Sobre as substâncias químicas citadas no enunciado, assinale a alternativa correta.",
+            "answer": 5
+
+        },
+
+        {
+
+            "id": 5,
+            "name": "“Quem tem que suar é o chope, não você”. Esse é o slogan que um fabricante de chope encontrou para evidenciar as qualidades de seu produto. Uma das interpretações desse slogan é que o fabricante do chope recomenda que seu produto deve ser ingerido a uma temperatura bem baixa.<br><br>Pode-se afirmar corretamente que o chope, ao suar, tem a sua temperatura",
+            "answer": 4
+
+        },
+
+        {
+
+            "id": 6,
+            "name": "Analise as proposições abaixo e assinale a alternativa correta.",
+            "answer": 1
+
+        },
+
+        {
+
+            "id": 7,
+            "name": "O “brilho” das placas de trânsito, quando recebem luz dos faróis dos carros no período da noite, pode ser compreendido pelo efeito da luminescência. Sem esse efeito, teríamos dificuldade de visualizar a informação das placas no período noturno, o que acarretaria possíveis acidentes de trânsito.<br><br>Esse efeito, conhecido como",
+            "answer": 3
+
+        },
+
+        {
+
+            "id": 8,
+            "name": "Segundo o grande cientista Galileu Galilei, todos os movimentos descritos na cinemática são observados na natureza na forma de composição desses movimentos. Assim, se um pequeno barco sobe o rio Guaraguaçu, em Pontal do Paraná, com velocidade de 12 km/h e desce o mesmo rio com velocidade de 20 km/h, a velocidade própria do barco e a velocidade da correnteza serão, respectivamente:",
+            "answer": 3
+
+        },
+
+        {
+
+            "id": 9,
+            "name": "Conta-se que um curioso incidente aconteceu durante a Primeira Guerra Mundial. Quando voava a uma altitude de dois mil metros, um piloto francês viu o que acreditava ser uma mosca parada perto de sua face. Apanhando-a rapidamente, ficou surpreso ao verificar que se tratava de um projétil alemão. PERELMAN, J. Aprenda física brincando. São Paulo: Hemus, 1970.",
+            "name2": "O piloto consegue apanhar o projétil, pois",
+            "answer": 5
+
+        },
+
+        {
+
+            "id": 10,
+            "name": "Determinado produto, ainda em análise pelos órgãos de saúde, promete o emagrecimento acelerando o metabolismo das gorduras acumuladas pelo organismo. Pode-se dizer que esse produto acelera",
+            "answer": 5
+
+        }
+
+
+    ]
+
+}
